@@ -1,0 +1,72 @@
+Package: com.diablowsky.diablowskyiconsforopennotifier
+Name: Diablowsky Icons for OpenNotifier
+Version: 2.2-09
+Architecture: iphoneos-arm
+Description: Añade notificaciones a la barra de estado, es necesario el tweak OpenNotifier de la repo http://tateu.net/repo/
+Maintainer: Diablowsky <diablowsky@yahoo.com>
+Author: Diablowsky <diablowsky@yahoo.com>
+Section: Addons (OpenNotifier)
+Depiction: https://diablowsky.github.io/depictions/com.diablowsky.diablowskyiconsforopennotifier/index.html
+Size: 4737190
+filename: ./debs/diablowskyiconsforopennotifier.deb
+MD5Sum: 5989e4d6d2e522e10b6b3f30f0d1059c
+
+Package: com.diablowsky.lightning
+Name: Lightning
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Añade el icono del cable Lightning a la batería cuando está cargando.
+Maintainer: Diablowsky <diablowsky@yahoo.com>
+Author: Diablowsky <diablowsky@yahoo.com>
+Section: Addons (Themes)
+Depiction: https://diablowsky.github.io/depictions/com.diablowsky.lightning/index.html
+Size: 2104
+filename: ./debs/lightning.deb
+MD5Sum: 0b4e89acf2f378ec3c373e5a968e982d
+
+Package: com.diablowsky.earphonestatusbar
+Name: EarphoneStatusBar
+Version: 0.0.5
+Architecture: iphoneos-arm
+Description: statusbar icon when headphones plugged-in. Este tweak te muestra un icono referente a música  en la barra de estado al conectar tus audífonos
+Author: Chikuwa
+Maintainer: Diablowsky <diablowsky@yahoo.com>
+Section: Tweaks
+Depiction: https://diablowsky.github.io/depictions/com.diablowsky.earphonestatusbar/index.html
+Depends: firmware (>=10.0), mobilesubstrate, libmoorecon, preferenceloader, applist
+Icon: file:///Library/PreferenceBundles/EarphoneStatusBar.bundle/EarphoneStatusBar@2x.png
+Size: 34318
+filename: ./debs/earphonestatusbar.deb
+MD5Sum: 500cd095ed85715ba0b851d9c9c982d4
+
+Package: com.diablowsky.cydown
+Name: CyDown
+Author: julioverne <julioverne@me.com>
+Maintainer: Diablowsky <diablowsky@icloud.com>
+Section: Tweaks
+Version: 6.9.7
+Description: Descarga paquetes de Cydia.
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Homepage: http://twitter.com/diablowsky
+Depiction: https://diablowsky.github.io/depictions/com.diablowsky.cydown/index.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Size: 904660
+filename: ./debs/cydown.deb
+MD5Sum: 44a887adfcc1a780b3b85a72a4a873f0
+
+Package: com.diablowsky.netkillui11
+Name: netKillUIbeta
+Version: 0.2.1-1
+Depends: adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, firmware (>= 11.0)
+Conflicts: eu.teggers.netKillUI
+Architecture: iphoneos-arm
+Author: Julio Verne <diablowsky@gmail.com>
+Depiction: https://diablowsky.github.io/depictions/com.diablowsky.netkillui/index.html
+Section: Tweaks
+Description: Desconecta cualquier intruso en tu red.
+Homepage: http://twitter.com/diablowsky
+Maintainer: Diablowsky <diablowsky@gmail.com>
+Size: 813542
+Filename: .debs/netkillui11.deb
+MD5Sum: 7eb7ab5bf54cdd7cc0b465a61faeccf8
